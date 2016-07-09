@@ -24,3 +24,13 @@ build:
       version: "0.16"
       theme: hugo-icarus-theme
       flags: --buildDrafts=true
+
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        repo: Fisiu/fisiu.github.io
+        branch: master
+        basedir: public
