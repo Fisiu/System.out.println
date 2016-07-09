@@ -1,0 +1,39 @@
+[articles]
+    read_more = "Czytaj więcej"
+    words = "words"
+    readingtime = "minute read"
+    share = "Udostępnij"
+    comments = "Komentarze"
+
+# Linked older/newer posts at the bottom of each one
+[articles.linked_posts]
+    older = "Starszy"
+    newer = "Nowszy"
+
+[search]
+    placeholder = "Szukaj"
+
+[pagination]
+    previous = "Poprzednia strona"
+    next = "Następna strona"
+
+[profile]
+    follow_button = "Śledź"
+    tags = "Tagi"
+    posts = "Posty"
+
+[page_not_found]
+    title = "404 - page not found"
+    subtitle = "The content you're looking for doesn't seem to exist."
+
+[widgets.categories]
+    title = "Kategorie"
+
+[widgets.recent_articles]
+    title = "Ostatnie"
+
+[widgets.tag_cloud]
+    title = "Chmura tagów"
+
+[widgets.tags]
+    title = "Tagi"
