@@ -21,10 +21,7 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - arjen/hugo-build:
-      version: "0.16"
-      theme: hugo-icarus-theme
-      config: config.toml
-      flags: --buildDrafts=true --cleanDestinationDir=true
+      flags: --buildDrafts=true
 
 deploy:
   steps:
