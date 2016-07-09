@@ -23,7 +23,7 @@ build:
     - arjen/hugo-build:
       version: "0.16"
       theme: hugo-icarus-theme
-      flags: --buildDrafts=true
+      flags: --buildDrafts=true --cleanDestinationDir=true
 
 deploy:
   steps:
