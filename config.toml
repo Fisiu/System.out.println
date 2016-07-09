@@ -1,4 +1,4 @@
-baseurl = "http://fisiu.github.io"
+baseurl = "http://fisiu.github.io/"
 languageCode = "pl-PL"
 title = "System.out.println"
 # Enable comments by entering your Disqus shortname
